@@ -1,0 +1,146 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 160" width="900" height="160">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f0020"/>
+      <stop offset="100%" stop-color="#08001a"/>
+    </linearGradient>
+    <linearGradient id="bar1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c084fc"/>
+      <stop offset="100%" stop-color="#67e8f9"/>
+    </linearGradient>
+    <linearGradient id="bar2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="100%" stop-color="#c084fc"/>
+    </linearGradient>
+    <linearGradient id="bar3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#67e8f9"/>
+      <stop offset="100%" stop-color="#a5f3fc"/>
+    </linearGradient>
+    <filter id="glow3">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="cb"><rect width="900" height="160" rx="10"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#cb)">
+    <rect width="900" height="160" fill="url(#cardBg)"/>
+    <!-- border -->
+    <rect width="900" height="160" rx="10" fill="none" stroke="#c084fc" stroke-width="1.2" opacity="0.6"/>
+
+    <!-- Scanlines -->
+    <g opacity="0.03">
+      <rect y="0"  width="900" height="1" fill="white"/> <rect y="3"  width="900" height="1" fill="white"/>
+      <rect y="6"  width="900" height="1" fill="white"/> <rect y="9"  width="900" height="1" fill="white"/>
+      <rect y="12" width="900" height="1" fill="white"/> <rect y="15" width="900" height="1" fill="white"/>
+      <rect y="18" width="900" height="1" fill="white"/> <rect y="21" width="900" height="1" fill="white"/>
+      <rect y="24" width="900" height="1" fill="white"/> <rect y="27" width="900" height="1" fill="white"/>
+      <rect y="30" width="900" height="1" fill="white"/> <rect y="33" width="900" height="1" fill="white"/>
+      <rect y="36" width="900" height="1" fill="white"/> <rect y="39" width="900" height="1" fill="white"/>
+      <rect y="42" width="900" height="1" fill="white"/> <rect y="45" width="900" height="1" fill="white"/>
+      <rect y="48" width="900" height="1" fill="white"/> <rect y="51" width="900" height="1" fill="white"/>
+      <rect y="54" width="900" height="1" fill="white"/> <rect y="57" width="900" height="1" fill="white"/>
+      <rect y="60" width="900" height="1" fill="white"/> <rect y="63" width="900" height="1" fill="white"/>
+      <rect y="66" width="900" height="1" fill="white"/> <rect y="69" width="900" height="1" fill="white"/>
+      <rect y="72" width="900" height="1" fill="white"/> <rect y="75" width="900" height="1" fill="white"/>
+      <rect y="78" width="900" height="1" fill="white"/> <rect y="81" width="900" height="1" fill="white"/>
+      <rect y="84" width="900" height="1" fill="white"/> <rect y="87" width="900" height="1" fill="white"/>
+      <rect y="90" width="900" height="1" fill="white"/> <rect y="93" width="900" height="1" fill="white"/>
+      <rect y="96" width="900" height="1" fill="white"/> <rect y="99" width="900" height="1" fill="white"/>
+      <rect y="102" width="900" height="1" fill="white"/> <rect y="105" width="900" height="1" fill="white"/>
+      <rect y="108" width="900" height="1" fill="white"/> <rect y="111" width="900" height="1" fill="white"/>
+      <rect y="114" width="900" height="1" fill="white"/> <rect y="117" width="900" height="1" fill="white"/>
+      <rect y="120" width="900" height="1" fill="white"/> <rect y="123" width="900" height="1" fill="white"/>
+      <rect y="126" width="900" height="1" fill="white"/> <rect y="129" width="900" height="1" fill="white"/>
+      <rect y="132" width="900" height="1" fill="white"/> <rect y="135" width="900" height="1" fill="white"/>
+      <rect y="138" width="900" height="1" fill="white"/> <rect y="141" width="900" height="1" fill="white"/>
+      <rect y="144" width="900" height="1" fill="white"/> <rect y="147" width="900" height="1" fill="white"/>
+      <rect y="150" width="900" height="1" fill="white"/> <rect y="153" width="900" height="1" fill="white"/>
+      <rect y="156" width="900" height="1" fill="white"/> <rect y="159" width="900" height="1" fill="white"/>
+    </g>
+
+    <!-- Title -->
+    <text x="28" y="32" font-family="'Courier New',monospace" font-size="13" font-weight="700"
+      fill="#c084fc" letter-spacing="3" filter="url(#glow3)">PELLTECH // STATS</text>
+    <line x1="28" y1="40" x2="872" y2="40" stroke="#c084fc" stroke-width="0.6" opacity="0.4"/>
+
+    <!-- LEFT COLUMN — metrics -->
+    <!-- Paid Downloads -->
+    <text x="28" y="64" font-family="'Courier New',monospace" font-size="10" fill="#64748b" letter-spacing="2">PAID DOWNLOADS</text>
+    <rect x="28" y="68" width="240" height="6" rx="3" fill="#1e0040"/>
+    <rect x="28" y="68" width="0" height="6" rx="3" fill="url(#bar1)">
+      <animate attributeName="width" from="0" to="216" dur="1.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="278" y="76" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#c084fc" text-anchor="end">300+</text>
+
+    <!-- Revenue -->
+    <text x="28" y="98" font-family="'Courier New',monospace" font-size="10" fill="#64748b" letter-spacing="2">REVENUE GENERATED</text>
+    <rect x="28" y="102" width="240" height="6" rx="3" fill="#1e0040"/>
+    <rect x="28" y="102" width="0" height="6" rx="3" fill="url(#bar2)">
+      <animate attributeName="width" from="0" to="196" dur="1.6s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="278" y="110" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#f0abfc" text-anchor="end">$2.2K CAD</text>
+
+    <!-- Rating -->
+    <text x="28" y="132" font-family="'Courier New',monospace" font-size="10" fill="#64748b" letter-spacing="2">APP STORE RATING</text>
+    <rect x="28" y="136" width="240" height="6" rx="3" fill="#1e0040"/>
+    <rect x="28" y="136" width="0" height="6" rx="3" fill="url(#bar3)">
+      <animate attributeName="width" from="0" to="240" dur="1.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+    <text x="278" y="144" font-family="'Courier New',monospace" font-size="11" font-weight="700" fill="#67e8f9" text-anchor="end">★ 5.0</text>
+
+    <!-- DIVIDER -->
+    <line x1="320" y1="48" x2="320" y2="148" stroke="#c084fc" stroke-width="0.6" opacity="0.25"/>
+
+    <!-- RIGHT COLUMN — lang / stack -->
+    <text x="348" y="64" font-family="'Courier New',monospace" font-size="10" fill="#64748b" letter-spacing="2">TOP LANGUAGES</text>
+
+    <!-- Swift -->
+    <text x="348" y="84" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0" letter-spacing="1">Swift / SwiftUI</text>
+    <rect x="460" y="75" width="160" height="5" rx="2" fill="#1e0040"/>
+    <rect x="460" y="75" width="0"   height="5" rx="2" fill="#f0abfc">
+      <animate attributeName="width" from="0" to="136" dur="1.5s" fill="freeze"/>
+    </rect>
+    <text x="630" y="82" font-family="'Courier New',monospace" font-size="10" fill="#f0abfc">85%</text>
+
+    <!-- Python -->
+    <text x="348" y="104" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0" letter-spacing="1">Python</text>
+    <rect x="460" y="96" width="160" height="5" rx="2" fill="#1e0040"/>
+    <rect x="460" y="96" width="0"   height="5" rx="2" fill="#c084fc">
+      <animate attributeName="width" from="0" to="96" dur="1.7s" fill="freeze"/>
+    </rect>
+    <text x="630" y="103" font-family="'Courier New',monospace" font-size="10" fill="#c084fc">60%</text>
+
+    <!-- JavaScript -->
+    <text x="348" y="124" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0" letter-spacing="1">JavaScript / TS</text>
+    <rect x="460" y="116" width="160" height="5" rx="2" fill="#1e0040"/>
+    <rect x="460" y="116" width="0"   height="5" rx="2" fill="#67e8f9">
+      <animate attributeName="width" from="0" to="64" dur="1.9s" fill="freeze"/>
+    </rect>
+    <text x="630" y="123" font-family="'Courier New',monospace" font-size="10" fill="#67e8f9">40%</text>
+
+    <!-- HTML/CSS -->
+    <text x="348" y="144" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0" letter-spacing="1">HTML / CSS</text>
+    <rect x="460" y="136" width="160" height="5" rx="2" fill="#1e0040"/>
+    <rect x="460" y="136" width="0"   height="5" rx="2" fill="#a5f3fc">
+      <animate attributeName="width" from="0" to="32" dur="2.1s" fill="freeze"/>
+    </rect>
+    <text x="630" y="143" font-family="'Courier New',monospace" font-size="10" fill="#a5f3fc">20%</text>
+
+    <!-- RIGHT DIVIDER -->
+    <line x1="660" y1="48" x2="660" y2="148" stroke="#c084fc" stroke-width="0.6" opacity="0.25"/>
+
+    <!-- FAR RIGHT — quick facts -->
+    <text x="686" y="64" font-family="'Courier New',monospace" font-size="10" fill="#64748b" letter-spacing="2">QUICK FACTS</text>
+    <text x="686" y="84"  font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0">repos     <tspan fill="#c084fc" font-weight="700">19</tspan></text>
+    <text x="686" y="100" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0">stars     <tspan fill="#f0abfc" font-weight="700">43+</tspan></text>
+    <text x="686" y="116" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0">location  <tspan fill="#67e8f9" font-weight="700">YYC</tspan></text>
+    <text x="686" y="132" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0">status    <tspan fill="#4ade80" font-weight="700">open</tspan></text>
+    <text x="686" y="148" font-family="'Courier New',monospace" font-size="10" fill="#e2e8f0">company   <tspan fill="#c084fc" font-weight="700">PellTech</tspan></text>
+
+    <!-- Animated flicker on border -->
+    <rect width="900" height="160" rx="10" fill="none" stroke="#f0abfc" stroke-width="1.5" opacity="0">
+      <animate attributeName="opacity" values="0;0;0;0;0.7;0;0;0;0;0;0.4;0;0;0;0;0" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+</svg>
