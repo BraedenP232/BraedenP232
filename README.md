@@ -15,10 +15,6 @@
 
 <br/>
 
-> Self-taught developer and founder. I build **real products** — from App Store releases to hardware integrations to production websites. Running **[PellTech](https://pelltech.ca)** and shipping things people actually pay for.
-
-<br/>
-
 ---
 
 <!--  ╔══════════════════╗  -->
@@ -27,7 +23,7 @@
 
 <img src="https://img.shields.io/badge/──────────────────────────────────────────────────────────-%20-0f0020?style=flat-square&labelColor=0f0020&color=0f0020" width="0"/>
 
-## `// projects`
+### `// projects`
 
 <br/>
 
@@ -123,7 +119,7 @@ Knight Rider-inspired voice assistant on Raspberry Pi. Local, private, fast — 
 <!--  ║     STACK        ║  -->
 <!--  ╚══════════════════╝  -->
 
-## `// stack`
+### `// stack`
 
 <br/>
 
@@ -163,7 +159,7 @@ Knight Rider-inspired voice assistant on Raspberry Pi. Local, private, fast — 
 <!--  ║     STATS        ║  -->
 <!--  ╚══════════════════╝  -->
 
-## `// stats`
+### `// stats`
 
 <br/>
 
