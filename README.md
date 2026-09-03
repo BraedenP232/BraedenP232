@@ -41,7 +41,7 @@ iOS companion app for the [Pwnagotchi](https://pwnagotchi.ai) Wi-Fi auditing dev
 ![WebSocket](https://img.shields.io/badge/WebSocket-0f0020?style=flat-square&logoColor=white)
 ![RPi](https://img.shields.io/badge/Raspberry_Pi-0f0020?style=flat-square&logo=raspberry-pi&logoColor=f0abfc)
 
-> ★ 5.0 &ensp;·&ensp; 300+ downloads &ensp;·&ensp; $2.2K revenue &ensp;·&ensp; still shocked
+> ★ 5.0 &ensp;·&ensp; 450+ downloads &ensp;·&ensp; $3.1K+ revenue &ensp;·&ensp; still shocked
 
 [![Stars](https://img.shields.io/github/stars/BraedenP232/PwnIOS?style=flat-square&color=c084fc&labelColor=0f0020&logo=github&logoColor=c084fc)](https://github.com/BraedenP232/PwnIOS)
 [![App Store](https://img.shields.io/badge/App_Store-live-67e8f9?style=flat-square&labelColor=0f0020&logo=apple&logoColor=67e8f9)](https://apps.apple.com/ca/app/pwnagotchi-companion/id6751243451)
@@ -70,11 +70,11 @@ Native iOS app for monitoring and controlling multiple Docker instances remotely
 <tr>
 
 <td width="50%" valign="top">
-<img src="https://img.shields.io/badge/Python%20·%20CLI-★%205%20stars%20from%20actual%20strangers-f0abfc?style=flat-square&labelColor=1a1a00"/>
+<img src="https://img.shields.io/badge/Python%20·%20CLI-small%20tool%2C%20does%20its%20job-f0abfc?style=flat-square&labelColor=1a1a00"/>
 
 ### [trakt-json-converter](https://github.com/BraedenP232/trakt-json-converter)
 
-Converts Trakt export files into the correct format for re-importing. I needed this, it didn't exist, so i made it in a couple hours. Five people starred it which is honestly five more than i expected.
+Converts Trakt export files into the correct format for re-importing. Needed it, it didn't exist, so I built it in an afternoon — no more, no less.
 
 ![Python](https://img.shields.io/badge/Python-0f0020?style=flat-square&logo=python&logoColor=c084fc)
 ![JSON](https://img.shields.io/badge/JSON-0f0020?style=flat-square&logoColor=white)
@@ -90,7 +90,7 @@ Converts Trakt export files into the correct format for re-importing. I needed t
 
 ### [KITT Voice Assistant](https://github.com/BraedenP232/kitt_robot)
 
-Voice assistant on Raspberry Pi 4 and ReSpeaker 4-mic array using Picovoice, Rhino Speech-to-intent, and Porcupine for wake-word and intent recognition. Responds with respective and contextual sound clips of KITT (Knight-Industries-Two-Thousand sentient car) from the Knight Rider TV Show. Runs entirely locally — no Alexa, no cloud.
+Voice assistant on a Raspberry Pi 4 with a ReSpeaker 4-mic array, using Picovoice's Rhino for speech-to-intent and Porcupine for wake-word detection. Responds with contextual sound clips of KITT — the sentient car from Knight Rider. Runs entirely locally, no Alexa, no cloud.
 
 ![Python](https://img.shields.io/badge/Python-0f0020?style=flat-square&logo=python&logoColor=c084fc)
 ![RPi](https://img.shields.io/badge/Raspberry_Pi-0f0020?style=flat-square&logo=raspberry-pi&logoColor=f0abfc)
